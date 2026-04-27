@@ -69,7 +69,7 @@ p{
 }
 
 .logoImg{
-    width: 14vw;
+    width: 9em;
 
     padding: 12px;
 
@@ -78,6 +78,6 @@ p{
 
 @media screen and (max-width: 600px) {
     .logoImg{
-        width: 12vw;
+        width: 8em;
     }
 }
