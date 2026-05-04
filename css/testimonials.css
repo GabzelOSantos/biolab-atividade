@@ -1,0 +1,98 @@
+.testimonials{
+    color: #0791BF;
+
+    width: 100%;
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title h1{
+    font-size: 6dvw;
+    margin: 0;
+}
+
+.title h3{
+    font-size: 2dvw;
+    margin: 0;
+}
+
+.item{
+    display: flex;
+}
+
+.card{
+    width: 40dvw;
+    height: 20dvh;
+    
+    display: flex;
+    justify-content: center;
+
+    box-shadow: 4px 4px 4px rgba(0, 0, 155, 0.5);
+
+    border-radius: 40px;
+}
+
+.person{
+    width: 42dvw;
+    height: 22dvh;
+
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 155, 0.5));
+
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.person img{
+    object-fit: cover;
+
+    border-radius: 100px;
+    width: 10dvw;
+
+    display: flex;
+}
+
+.personText{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    margin-bottom: 2dvh;
+    margin-left: 1dvw;
+}
+
+.personText h1{
+    margin: 0;
+}
+
+.personText h3{
+    margin: 0;
+}
+
+.description{
+    display: flex;
+    
+    position: absolute;
+    justify-content: space-around;
+}
+
+.stars img{
+    width: 4dvw;
+}
+
+.descriptionText{
+    margin: 0;
+    margin-top: 3dvh;
+
+    position: absolute;
+    text-align: end;
+    
+    width: 38dvw;
+    height: 10dvh;
+}

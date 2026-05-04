@@ -1,0 +1,26 @@
+.pillars{
+    background: linear-gradient(to right, #dcf69c, #0099FF);
+    color: #fff;
+
+    border-top: 1dvh solid #BBB;
+    border-bottom: 1dvh solid #BBB;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    width: 100%;
+    height: 100dvh;
+}
+
+.pillars h1{
+    font-size: 8dvw;
+}
+
+.pillars h3{
+    font-size: 3dvw;
+}
