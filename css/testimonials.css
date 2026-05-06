@@ -52,7 +52,7 @@
     object-fit: cover;
 
     border-radius: 100px;
-    width: 10dvw;
+    width: 5dvw;
 
     display: flex;
 }
@@ -83,7 +83,7 @@
 }
 
 .stars img{
-    width: 4dvw;
+    width: 2dvw;
 }
 
 .descriptionText{
@@ -95,4 +95,53 @@
     
     width: 38dvw;
     height: 10dvh;
+}
+
+@media screen and (max-width: 700px){
+    .testimonials{
+        height: 80vh;
+    } 
+       .title h1{
+        font-size: 10vw;
+    }
+
+    .title h3{
+        font-size: 4vw;
+    }
+
+    .card{
+        width: 50dvw;
+        height: 15vh;
+    }
+
+    .stars img{
+        width: 4vw;
+    }
+
+    .personText{
+        margin-bottom: 6vh;
+    }
+
+    .personText h1{
+        font-size: 1rem;
+    }
+
+    .personText h3{
+        font-size: 0.8rem;
+    }
+
+    .person img{
+        width: 12vw;
+
+        margin-bottom: 5vh;
+    }
+
+    .descriptionText{
+        font-size: 0.7rem;
+        
+        margin-top: 1vh;
+
+        width: 38vw;
+        height: 10vh;
+    }
 }

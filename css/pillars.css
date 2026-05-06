@@ -18,9 +18,23 @@
 }
 
 .pillars h1{
-    font-size: 8dvw;
+    font-size: 6rem;
 }
 
 .pillars h3{
-    font-size: 3dvw;
+    font-size: 2rem;
+}
+
+.pillars h1, h3{
+    margin-bottom: 10dvh;
+}
+
+@media screen and (max-width: 600px){
+    .pillars h1{
+        font-size: 3rem;
+    }
+
+    .pillars h3{
+        font-size: 1.6rem;
+    }
 }
