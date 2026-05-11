@@ -11,18 +11,6 @@ export class Navbar extends HTMLElement{
 
         <div class="navbar">
             <img src="/assets/images/logoMenu.webp" alt="Logo Menu" class="logoImg">
-                    
-            <button aria-haspopup="true" aria-expanded="false">
-            <div class="navButton">
-                <p>Navegar</p><img src="/assets/images/chevronDown.svg" alt="" class="navButtonImg">
-            </div>
-                    
-            <ul>
-                <li>Início</li>
-                <li>Pilares</li>
-                <li>Depoimentos</li>
-            </ul>
-            </button>
         </div>
         <main></main>
         `;

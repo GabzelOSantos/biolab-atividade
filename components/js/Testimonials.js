@@ -3,23 +3,19 @@ const testimonials = [
         id: 0,
         stars: 5,
         description: `
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Ratione nam ipsam quisquam unde adipisci reprehenderit ipsum reiciendis 
-        est similique corrupti.
+        Gosto bastante de trabalhar nessa empresa, amo como eles tratam os funcionários!
         `,
-        name: "Person Name",
-        position: "Position"
+        name: "Sirlei de O.S.",
+        position: "Faxineira;"
     },
     {
         id: 1,
         stars: 5,
         description: `
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Ratione nam ipsam quisquam unde adipisci reprehenderit ipsum reiciendis 
-        est similique corrupti.
+        A Biolab é uma maravilha! Eles ajudaram muito no tratamento da minha saúde!
         `,
-        name: "Person Name",
-        position: "Position"
+        name: "Elias Jesus",
+        position: "Segurança"
     }
     
 ]

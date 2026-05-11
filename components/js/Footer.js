@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer</title>
-    <link rel="stylesheet" href="../css/footer.css">
-</head>
-<body>
-    <div class="footer">
+export class Footer extends HTMLElement{
+    constructor(){
+        super();
+        this.attachShadow({ mode: 'open' });
+    }
+
+
+    connectedCallback(){
+        this.shadowRoot.innerHTML = `
+         <link rel="stylesheet" href="../css/footer.css">
+        <div class="footer">
         <div class="containers">
             <div class="containerLeft">
                 <img src="../assets/images/logoMenu.webp" alt="Logo">
@@ -20,18 +21,21 @@
                     </div>
                 </div>
             </div>
-<a href="https://www.biolabeco.com.br/">Site oficial da Biolab</a>
+
+            <div class="containerRight">
+               <a href="https://www.biolabeco.com.br/">Site oficial da Biolab</a>
                <a href="https://www.youtube.com/@biolab_farmaceutica">Site para o Youtube</a>
                <a href="https://br.linkedin.com/company/biolabeco">Site para o Linkedin</a>
                <a href="https://www.instagram.com/biolabfarmaceutica/">Site para o Instagram</a>
                <a href="https://web.facebook.com/biolabfarmaceutica/?locale=pt_BR&_rdc=1&_rdr">Site para o Facebook</a> 
-            <div class="containerRight">
-               
             </div>
         </div>
         <div class="down">
             <p>© 2026 Biolab. Todos os direitos reservados.</p>
         </div>
-    </div>    
-</body>
-</html>
+    </div>
+        `;
+    }
+}
+
+customElements.define('app-footer', Footer);

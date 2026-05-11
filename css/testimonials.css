@@ -69,6 +69,7 @@
 
 .personText h1{
     margin: 0;
+    font-size: 1.4rem;
 }
 
 .personText h3{
@@ -88,7 +89,7 @@
 
 .descriptionText{
     margin: 0;
-    margin-top: 3dvh;
+    margin-top: 2dvh;
 
     position: absolute;
     text-align: end;
@@ -97,29 +98,29 @@
     height: 10dvh;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 840px){
     .testimonials{
-        height: 80vh;
+        height: 80dvh;
     } 
        .title h1{
-        font-size: 10vw;
+        font-size: 10dvw;
     }
 
     .title h3{
-        font-size: 4vw;
+        font-size: 4dvw;
     }
 
     .card{
         width: 50dvw;
-        height: 15vh;
+        height: 15dvh;
     }
 
     .stars img{
-        width: 4vw;
+        width: 3dvw;
     }
 
     .personText{
-        margin-bottom: 6vh;
+        margin-bottom: 7dvh;
     }
 
     .personText h1{
@@ -131,7 +132,7 @@
     }
 
     .person img{
-        width: 12vw;
+        width: 11dvw;
 
         margin-bottom: 5vh;
     }
@@ -139,9 +140,9 @@
     .descriptionText{
         font-size: 0.7rem;
         
-        margin-top: 1vh;
+        margin-top: 1.3dvh;
 
-        width: 38vw;
-        height: 10vh;
+        width: 38dvw;
+        height: 10dvh;
     }
 }

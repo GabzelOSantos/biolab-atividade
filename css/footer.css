@@ -5,7 +5,15 @@
     background: linear-gradient(to right, #BBE9A2, #84CBEF);
 
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers{
+    width: 80dvw;
+    display: flex;
+    justify-content: space-between;
 }
 
 .containerLeft{
@@ -20,9 +28,79 @@
     filter: brightness(0) invert(1);
 }
 
-.contacts{
-    border: 1px solid red;
+.containerRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    height: 9dvh;
+    font-size: 1.3rem;
+}
+
+.containerRight a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.containerRight a:hover{
+    text-decoration: underline;
+}
+
+.contacts{
+    height: 9dvh;   
+}
+
+.down{
+    border-top: 3px solid #FFFFFF;
+
+    width: 80%;
+
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 840px){
+    .footer{
+        height: 65dvh
+    }
     
+    .containers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerLeft, .containerRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerRight a{
+        padding: 10px;
+    }
+
+    .contacts{
+        border-bottom: 3px solid #FFFFFF;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts h6{
+        padding: 4dvw;
+    }
+
+    .content h5{
+        display: flex;
+        justify-content: center;
+    }
+
+    .down{
+        margin-top: 1.6dvh;
+    }
 }
