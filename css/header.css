@@ -12,6 +12,9 @@
 .header img{
     width: 50%;
 
+    filter: brightness(0) saturate(100%) invert(41%) sepia(80%) saturate(2335%) 
+    hue-rotate(167deg) brightness(96%) contrast(92%);
+
     margin-top: 20dvh;
 }
 
