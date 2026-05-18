@@ -7,10 +7,6 @@
     position: static;
 }
 
-* img{
-    user-select: none;
-}
-
 body{
     background: #F2F0FE;
 }
