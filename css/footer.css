@@ -60,7 +60,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 840px){
+@media (max-width: 840px){
     .footer{
         height: 65dvh
     }

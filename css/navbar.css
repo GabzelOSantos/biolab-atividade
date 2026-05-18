@@ -31,7 +31,7 @@ p{
     filter: brightness(0) invert(1);
 }
 
-@media screen and (max-width: 840px) {
+@media (max-width: 840px) {
     .logoImg{
         width: 8em;
     }
